@@ -24,11 +24,11 @@ function App() {
 
     return ( 
     <div className="App">
-      <div className='logoContainer'>
+      {/* <div className='logoContainer'>
         <img
         src={logo}
         alt="Logo FreCodeCamp" />
-      </div>
+      </div> */}
       
       <div className='calculatorContainer'>
         <Screen input={input} />
